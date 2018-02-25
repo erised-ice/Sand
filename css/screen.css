@@ -1,0 +1,138 @@
+@font-face {
+    font-family: "NeuchaRegular";
+    src: url("../fonts/NeuchaRegular/NeuchaRegular.eot");
+    src: url("../fonts/NeuchaRegular/NeuchaRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/NeuchaRegular/NeuchaRegular.woff") format("woff"),
+    url("../fonts/NeuchaRegular/NeuchaRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+    font-family: NeuchaRegular;
+    color: #6640b6;
+}
+
+.inner {
+    width: 100%;
+    max-width: 1127px;
+    margin: 0 auto;
+}
+
+.header__inner {
+    padding: 5px 20px;
+}
+
+.header {
+    background-color: #c4dcf1;
+    border-bottom: 1px solid gray;
+}
+
+.header__contacts {
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.contacts__text,
+.contacts__number,
+.email__text,
+.email__value {
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.header__callback {
+    background-color: #8567b2;
+    color: #ffffff;
+    padding: 6px 17px;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-size: 18px;
+    margin: 0 51px;
+    line-height: 1;
+}
+
+.header__email {
+    display: inline-block;
+    margin: 0 55px 0 0;
+    letter-spacing: 1.5px;
+}
+
+.email__text {
+    text-transform: uppercase;
+}
+
+.header__social {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1;
+    font-size: 0;
+}
+
+.social__link {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+}
+
+.social__link--fb {
+    background-image: url("../img/facebook.png");
+}
+
+.social__link--youtube {
+    background-image: url("../img/utube.png");
+}
+
+.social__link--vk {
+    background-image: url("../img/vk.png");
+}
+
+.social__link--ok {
+    background-image: url("../img/ok.png");
+}
+
+.social__link--googleplus {
+    background-image: url("../img/googleplus.png");
+}
+
+.social__link--skype {
+    background-image: url("../img/skype.png");
+}
+
+.social__link:not(:last-child) {
+    margin: 0 8px 0 0;
+}
+
+.menu__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu__item {
+    display: inline-block;
+    margin: 0 23px;
+}
+
+.menu__item:first-child {
+    margin-left: 0;
+}
+
+.menu__item:last-child {
+    margin-right: 0;
+    margin-left: 31px;
+}
+
+.menu__link {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 22px;
+    padding: 15px 0;
+    display: inline-block;
+}
+
+
