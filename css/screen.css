@@ -153,4 +153,19 @@ body {
     margin: 74px 369px 95px 365px;
 }
 
+.name {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.round-image {
+    display: inline-block;
+}
+
+.text {
+    display: inline-block;
+}
+
 
