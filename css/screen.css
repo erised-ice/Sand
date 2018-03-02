@@ -154,19 +154,39 @@ body {
     border-top: 1px solid #8e8e8e;
 }
 
-.name {
+.product__body {
+    font-style: 0;
+}
+
+.product__title {
     text-transform: uppercase;
     text-align: center;
     font-size: 50px;
     font-weight: 400;
 }
 
-.round-image {
-    display: inline-block;
+.product__picture {
+    max-width: 335px;
+    width:100%;
+    margin-right: makeValue px;
+    margin-right: 57px;
 }
 
-.text {
-    display: inline-block;
+.product__text {
+    width: 730px;
+    text-align: justify;
 }
+
+.product__picture,
+.product__text {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.product__img: {
+    width: 100%;
+}
+
+
 
 
