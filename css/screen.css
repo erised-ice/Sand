@@ -43,7 +43,7 @@ body {
     font-size: 18px;
 }
 
-.header__callback {
+.button {
     background-color: #8567b2;
     color: #ffffff;
     padding: 6px 17px;
@@ -51,10 +51,15 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     border-radius: 4px;
-    font-size: 18px;
-    margin: 0 51px;
     line-height: 1;
 }
+
+.header__callback {
+    margin: 0 51px;
+    font-size: 18px;
+}
+
+
 
 .header__email {
     display: inline-block;
@@ -175,6 +180,7 @@ body {
 .product__text {
     width: 730px;
     text-align: justify;
+    font-size: 23px;
 }
 
 .product__picture,
@@ -186,6 +192,18 @@ body {
 .product__img: {
     width: 100%;
 }
+
+.product__catalog {
+    font-size: 24px;
+    letter-spacing: 1.4px;
+}
+
+.product__body p:last-child {
+    text-align: right;
+}
+
+
+
 
 
 
