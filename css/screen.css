@@ -59,8 +59,6 @@ body {
     font-size: 18px;
 }
 
-
-
 .header__email {
     display: inline-block;
     margin: 0 55px 0 0;
@@ -202,9 +200,9 @@ body {
     margin-top: 40px;
 }
 
-.product__catalog {
+.product__link {
     font-size: 24px;
-    letter-spacing: 1.4px;
+    letter-spacing: 1px;
 }
 
 .portfolio {
@@ -214,12 +212,13 @@ body {
     width: 100%;
     max-width: 1127px;
 }
-.portfolio__image {
+
+.portfolio__wrapper {
     display: flex;
     justify-content: space-between;
 }
 
-.portfolio__image img {
+.portfolio__img {
     width: 100%;
     max-width: 367px;
 }
@@ -236,12 +235,3 @@ video {
     width: 100%;
     max-width: 487px;
 }
-
-
-
-
-
-
-
-
-
