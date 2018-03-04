@@ -155,7 +155,7 @@ body {
 }
 
 .product__body {
-    font-style: 0;
+    font-size: 0;
 }
 
 .product__title {
@@ -168,7 +168,6 @@ body {
 .product__picture {
     max-width: 335px;
     width:100%;
-    margin-right: makeValue px;
     margin-right: 57px;
 }
 
@@ -182,7 +181,3 @@ body {
     display: inline-block;
     vertical-align: middle;
 }
-
-
-
-
