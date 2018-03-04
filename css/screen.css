@@ -43,6 +43,10 @@ body {
     font-size: 18px;
 }
 
+.email__value:hover {
+    text-decoration: underline;
+}
+
 .button {
     background-color: #8567b2;
     color: #ffffff;
@@ -52,6 +56,10 @@ body {
     text-transform: uppercase;
     border-radius: 4px;
     line-height: 1;
+}
+
+.button:hover {
+    opacity: 0.8;
 }
 
 .header__callback {
