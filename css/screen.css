@@ -43,9 +43,8 @@ body {
     font-size: 18px;
 }
 
-.email__value:hover {
-    text-decoration: underline;
-}
+
+
 
 .button {
     background-color: #8567b2;
@@ -58,9 +57,7 @@ body {
     line-height: 1;
 }
 
-.button:hover {
-    opacity: 0.8;
-}
+
 
 .header__callback {
     margin: 0 51px;
@@ -151,9 +148,7 @@ body {
     border-top: 4px solid transparent;
 }
 
-.menu__link:hover {
-    border-color: #03deff;
-}
+
 
 .logo {
     box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.35);
@@ -255,4 +250,18 @@ body {
 .video__iframe {
     width: 100%;
     height: 100%;
+}
+
+@media (min-width: 1024px) {
+    .email__value:hover {
+        text-decoration: underline;
+    }
+
+    .button:hover {
+        opacity: 0.8;
+    }
+
+    .menu__link:hover {
+        border-color: #03deff;
+    }
 }
