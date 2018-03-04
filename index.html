@@ -61,18 +61,28 @@
                 </div>
             </div>
             <div class="product__button">
-                <a href="#" class="product__link">перейти в каталог</a>
+                <a href="#" class="product__link button">перейти в каталог</a>
             </div>
         </div>
         <div class="portfolio">
             <div class="portfolio__wrapper">
-                <img class="portfolio__img" src="img/BlueSand.png" alt="">
-                <img class="portfolio__img" src="img/Heals.png" alt="">
-                <img class="portfolio__img" src="img/GreenSand.png" alt="">
+                <a data-fancybox="gallery" href="img/BlueSand.png">
+                    <img class="portfolio__img" src="img/BlueSand.png" alt="">
+                </a>
+                <a data-fancybox="gallery" href="img/Heals.png">
+                    <img class="portfolio__img" src="img/Heals.png" alt="">
+                </a>
+                <a data-fancybox="gallery" href="img/GreenSand.png">
+                    <img class="portfolio__img" src="img/GreenSand.png" alt="">
+                </a>
             </div>
-           <div class="portfolio__video video">
-               <video src="#"></video>
-               <video src="#""></video>
+            <div class="portfolio__video video">
+                <div class="video__item">
+                    <iframe class="video__iframe" src="https://www.youtube.com/embed/2l-uhacRTFI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+                <div class="video__item">
+                    <iframe class="video__iframe" src="https://www.youtube.com/embed/RMKCXCbNUSc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
            </div>
         </div>
         <div class="advantages">
@@ -83,5 +93,8 @@
 <footer class="footer">
     <div class="footer__inner inner"></div>
 </footer>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<link  href="css/jquery.fancybox.css" rel="stylesheet">
+<script src="js/jquery.fancybox.min.js"></script>
 </body>
 </html>
