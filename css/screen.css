@@ -57,8 +57,6 @@ body {
     line-height: 1;
 }
 
-
-
 .header__callback {
     margin: 0 51px;
     font-size: 18px;
@@ -148,8 +146,6 @@ body {
     border-top: 4px solid transparent;
 }
 
-
-
 .logo {
     box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.35);
     font-size: 0;
@@ -164,11 +160,16 @@ body {
     margin-bottom: 88px;
 }
 
-.product__title {
+.title {
     text-transform: uppercase;
     text-align: center;
     font-size: 50px;
     font-weight: 400;
+    margin: 0 auto;
+}
+
+.product__title {
+    padding: 36px 0;
 }
 
 .product__body {
@@ -251,6 +252,46 @@ body {
     width: 100%;
     height: 100%;
 }
+
+.advantages {
+    width: 100%;
+    margin-bottom: 44px;
+    height: 531px;
+    background-color: #d4c9ec;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.35);
+}
+
+
+
+.advantages__title {
+    padding-top: 40px;
+    padding-bottom: 37px;
+    /* Белая обводка текста */
+}
+
+.advantages__body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.advantages__items {
+    display: flex;
+    flex-direction: column;
+    width: 281px;
+    align-items: center;
+}
+
+.advantages__picture {
+    padding-bottom: 27px;
+}
+
+.advantages__text {
+    font-size: 37px;
+    text-align: center;
+}
+
+
 
 @media (min-width: 1024px) {
     .email__value:hover {
