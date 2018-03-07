@@ -376,6 +376,49 @@ body {
     text-align: center;
 }
 
+.rewies {
+    margin-bottom: 42px;
+}
+
+.rewies__title {
+    padding: 50px 0;
+    font-size: 50px;
+}
+
+.rewies__body {
+    /*display: flex;
+    flex-direction: row;
+    justify-content: space-between;*/
+    font-size: 0;
+    margin-bottom: 42px;
+}
+
+.rewies__picture {
+    max-width: 150px;
+    width:100%;
+    margin-right: 23px;
+}
+
+.rewies__capture {
+    font-size: 24px;
+    text-align: left;
+}
+
+.rewies__text {
+    width: 950px;
+    text-align: justify;
+    font-size: 24px;
+}
+
+.rewies__picture,
+.rewies__text {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.rewies__img {
+    width: 100%;
+}
 
 @media (min-width: 1024px) {
     .email__value:hover {
