@@ -289,6 +289,25 @@ body {
     text-align: center;
 }
 
+.slider {
+    height: 456px;
+    background: url("../img/Slider_Sand.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.popular__title {
+    margin-bottom: 33px;
+}
+
+.slider__item {
+    display: flex;
+}
+
+.slider__text {
+    font-size: 50px;
+    }
+
 .novelties__title {
     padding: 36px 0;
 }
