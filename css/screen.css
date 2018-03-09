@@ -439,6 +439,29 @@ body {
     width: 100%;
 }
 
+.wholesale__main {
+    position: relative;
+    text-align: center;
+}
+
+.wholesale__inner {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 50px;
+    padding-top: 37px;
+    text-shadow:
+            -2px -2px 0 #fff,
+            2px -2px 0 #fff,
+            -2px 2px 0 #fff,
+            2px 2px 0 #fff;
+}
+
+.wholesale__title {
+    margin-bottom: 37px;
+}
+
 @media (min-width: 1024px) {
     .email__value:hover {
         text-decoration: underline;
