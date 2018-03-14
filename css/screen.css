@@ -86,27 +86,27 @@ body {
 }
 
 .social__link--fb {
-    background-image: url("../img/facebook.png");
+    background-image: url("../img/template/facebook.png");
 }
 
 .social__link--youtube {
-    background-image: url("../img/utube.png");
+    background-image: url("../img/template/utube.png");
 }
 
 .social__link--vk {
-    background-image: url("../img/vk.png");
+    background-image: url("../img/template/vk.png");
 }
 
 .social__link--ok {
-    background-image: url("../img/ok.png");
+    background-image: url("../img/template/ok.png");
 }
 
 .social__link--googleplus {
-    background-image: url("../img/googleplus.png");
+    background-image: url("../img/template/googleplus.png");
 }
 
 .social__link--skype {
-    background-image: url("../img/skype.png");
+    background-image: url("../img/template/skype.png");
 }
 
 .social__link:not(:last-child) {
@@ -146,14 +146,19 @@ body {
     border-top: 4px solid transparent;
 }
 
-.logo {
+.border-shadow {
     box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.35);
     font-size: 0;
+    border-bottom: 3px solid #6640b6;
 }
 
 .logo__img {
     width: 100%;
     border-top: 1px solid #8e8e8e;
+}
+
+.content__inner {
+    padding-bottom: 43px;
 }
 
 .product {
@@ -217,7 +222,6 @@ body {
     flex-direction: column;
     width: 100%;
     max-width: 1127px;
-    margin-bottom: 43px;
 }
 
 .portfolio__wrapper {
@@ -291,7 +295,7 @@ body {
 
 .slider {
     height: 456px;
-    background: url("../img/Slider_Sand.png");
+    background: url("../img/Content/Slider_Sand.png");
     background-repeat: no-repeat;
     background-position: center;
     overflow: hidden;
