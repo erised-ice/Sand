@@ -299,6 +299,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     overflow: hidden;
+    margin-bottom: 37px;
 }
 
 .popular__title {
@@ -369,6 +370,42 @@ body {
 
 .slick-dots li.slick-active {
     background: #fff;
+}
+
+.popular__goods {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.popular__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 375px;
+    margin-bottom: 41px;
+}
+
+.popular__capture {
+    font-size: 28px;
+}
+
+.popular__img {
+    height: 100%;
+    max-height: 238px;
+}
+
+.popular__link,
+.popular__price {
+    font-size: 33px;
+}
+
+.popular__link {
+    width: 161px;
+    text-align: center;
+    padding: 8px 17px;
 }
 
 .novelties__title {
