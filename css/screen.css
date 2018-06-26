@@ -562,6 +562,15 @@ body {
     margin-bottom: 37px;
 }
 
+.big-circle {
+    max-width: 195px;
+    margin-right: 12px;
+}
+
+.wholesale__text {
+    width: 916px;
+}
+
 .inform {
     width: 100%;
     margin-bottom: 44px;
