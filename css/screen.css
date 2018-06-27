@@ -584,22 +584,59 @@ body {
     box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.35);
 }
 
-.inform__phone,
-.inform__email {
+.inform__title {
+    padding-top: 42px;
+    padding-bottom: 45px;
+}
+
+.inform__body {
     display: inline-block;
+    width: 846px;
+    margin-right: 43px;
+    vertical-align: top;
+}
+
+.inform__phone,
+.inform__email,
+.inform__address,
+.inform__requisites,
+.inform__skype,
+.inform__time {
     text-transform: uppercase;
     font-size: 35px;
+    padding-bottom: 5px;
 }
 
 .inform__number,
 .inform__email,
-.informemail__value {
+.non-transform {
     text-decoration: none;
     color: #6640b6;
 }
 
-.informemail__value {
+.inform__requisites {
+    font-size: 30px;
+}
+
+.inform__skype {
+    padding-bottom: 10px;
+}
+
+.inform__time {
+    padding-bottom: 38px;
+}
+
+.non-transform {
     text-transform: none;
+}
+
+.inform__mascot {
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.mascot__img {
+    height: 335px;
 }
 
 .border-shadow {
