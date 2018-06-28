@@ -593,7 +593,8 @@ body {
 
 .inform__number,
 .inform__email,
-.informemail__value {
+.informemail__value,
+.footer__number {
     text-decoration: none;
     color: #6640b6;
 }
@@ -601,6 +602,33 @@ body {
 .informemail__value {
     text-transform: none;
 }
+
+.footer__left,
+.footer__top,
+.footer__logo,
+.footer__phone,
+.footer__right,
+.footer__social {
+    display: inline-block;
+}
+
+footer__top {
+    text-align: top;
+}
+
+.footer__phone {
+    font-size: 35px;
+    vertical-align: top;
+}
+
+.footer__bottom {
+    font-size: 30px;
+}
+
+.footer__right {
+    vertical-align: top;
+}
+
 
 .border-shadow {
     box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.35);
