@@ -69,7 +69,8 @@ body {
     text-transform: uppercase;
 }
 
-.header__social {
+.header__social,
+.social {
     display: inline-block;
     vertical-align: middle;
     line-height: 1;
@@ -594,7 +595,8 @@ body {
 .inform__number,
 .inform__email,
 .informemail__value,
-.footer__number {
+.footer__number,
+.footer__email{
     text-decoration: none;
     color: #6640b6;
 }
@@ -612,8 +614,23 @@ body {
     display: inline-block;
 }
 
-footer__top {
-    text-align: top;
+.footer__top {
+    width: 100%;
+}
+
+.footer__left {
+    width: 854px;
+    margin-bottom: 37px;
+}
+.footer__logo {
+    max-width: 236px;
+    width: 100%;
+    margin-right: 53px;
+    margin-bottom: 25px;
+}
+
+.footer__logo-img {
+    max-width: 100%;
 }
 
 .footer__phone {
@@ -623,12 +640,21 @@ footer__top {
 
 .footer__bottom {
     font-size: 30px;
+    line-height: 1.4;
 }
 
 .footer__right {
     vertical-align: top;
+    text-align: right;
+    width: 268px;
 }
 
+.footer__menu-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 35px;
+    color: #6640b6;
+}
 
 .border-shadow {
     box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.35);
